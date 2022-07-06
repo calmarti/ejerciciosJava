@@ -1,3 +1,5 @@
+package com.ivan;
+
 public class EjercicioDos {
     public static void main(String[] args) {
         System.out.println(getPriceWithVAT(250,21));
