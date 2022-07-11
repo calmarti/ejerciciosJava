@@ -133,7 +133,7 @@ public class dataStructures {
         System.out.println(mapa);
 
         //iterar sobe un hashmap
-        for (Map.Entry elemento : mapa.entrySet()){
+        for (Map.Entry<String, Integer> elemento : mapa.entrySet()){
             System.out.println("elemento del mapa: " + elemento);
             System.out.println("clave: " + elemento.getKey());
             System.out.println("valor: " + elemento.getValue());
