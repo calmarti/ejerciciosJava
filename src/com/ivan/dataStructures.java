@@ -33,7 +33,7 @@ public class dataStructures {
 
         //Vector
         System.out.println("***Vectores***");
-        Vector<Integer> vector = new Vector<>(50, 15);   //por defecto capacity: 10 y capacityIncrment = x 2
+        Vector<Integer> vector = new Vector<>(50, 15);   //por defecto capacity: 10 y capacityIncrement = x 2
         vector.add(1);
         vector.add(2);
         vector.add(3);
@@ -74,6 +74,7 @@ public class dataStructures {
 
         //ArrayLists
         System.out.println("***ArrayLists***");
+        //capacidad por defecto: 10
         //antigua forma de declarar un ArrayList:
         //List lista = new ArrayList<String>();
 
